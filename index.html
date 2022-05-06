@@ -1,6 +1,22 @@
 <!DOCTYPE html>
 <html>
   <head>
+  <style>
+    {
+        box-sizing: border-box;
+    }
+    /* Set additional styling options for the columns*/
+    .column {
+    float: left;
+    width: 50%;
+    }
+
+    .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+  </style>
   <a href="https://charushree-ai.github.io/mi_ai_models/"><button style="position: relative;
   left: 900px;">HOME</button><a href="https://github.com/Charushree-ai/mi_ai_models"><button style="position: relative;
   left: 910px;">PROJECTS</button>
@@ -8,8 +24,8 @@
   </head>
   <body style="background-color:yellow;">
   <div class="row">
-      <div style="float: left; width: 50%;"> <img src="unlimited_ability.gif" alt="Computer girl" style="width:500px;height:500px;position:absolute;left:16%;top:16%;"></div>
-      <div style="float: right;width: 10%;><h3>Charushree K S</div>
+      <div class="column"> <img src="unlimited_ability.gif" alt="Computer girl" style="width:500px;height:500px;position:absolute;left:16%;top:16%;"></div>
+      <div class="column"><h3>Charushree K S</div>
   </div>
   </body>
 </html>
